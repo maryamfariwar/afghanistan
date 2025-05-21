@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav >ul{
+
+  background-color: rgb(170, 92, 19);    
+  margin-top: 0px;
+  position:static;
+}
+
+nav>ul> li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+   
+}
+    
+h1{
+
+    padding-left: 500px;
+    padding-top: 100px;
+    font-size:xx-large;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(170, 92, 19)  
+}
+
+#link{
+    background-color:rgb(170, 92, 19) ;
+    margin:50px;
+    display: block;
+    margin-top: 100px; 
+}
+
+#link :hover{
+    
+    color:blue;
+    
+}
+
+
+div>ul>li>a{
+    text-decoration: none;
+    color: azure;
+    font-size: xx-large;
+    margin-left: 250px;
+}
+
+div>ul{
+    list-style: none;
+}
+
+
+#href{
+    text-decoration: none;
+
+}
+
+.new{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 50px 
+   
+}
+.new :hover{
+    color: blue;
+    text-decoration:dotted;
+    border-style:inset;
+    border-color: aliceblue;
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+
+#img{
+    animation: img 9s linear  alternate ;
+    background-image: url(Image/balkh\ 2.jpg);
+    background-size: 100% 100%;
+}
+@keyframes img{
+    0%{
+        filter: blur(3px);
+        transform: rotateY(0deg);
+    }
+    25%{
+        filter:contrast(20px)
+    }
+    50%{
+        filter: brightness(10px);
+    }
+    75%{
+        filter: contrast(20px);
+    }
+    100%{
+        filter: brightness(10px);
+        transform: rotateY(360deg);
+    }
+}
+
+.slider{
+    background-image: url(Image/balkh\ 1.jpg);
+
+}
+
+#kabul>a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color:rgb(170, 92, 19) ;
+    font-size: xx-large;
+    margin-left: 400px;
+}
+#kabul>a:hover{
+    color: blue;
+}
+   
+#kabulh{
+    font-size: xx-large;
+    margin-left: 500px;
+    color: rgb(170, 92, 19) ;
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    size: 100% 100%;
+    gap: 10px;
+    padding: 20px;
+}
+.image-grid img{
+   width: 80%;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 6px;
+
+}
+
+h3{
+    margin-left: 500px;
+    color: rgb(170, 92, 19);
+    font-size: xx-large;
+    
+}
+h2{
+    margin-left: 560px;
+    color: rgb(170, 92, 19);
+
+}
+
+h5{
+  
+    margin-left: 400px;
+    color: rgb(170, 92, 19);
+}
+
+#herat{
+    margin-left: 450px;
+    width: 100px;
+    height: 500px;
+}
+
+#para{
+    background-color:rgb(170, 92, 19);
+    color:white;
+    margin-top: 50px;
+   
+    
+
+}
+#one{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+#last{
+    margin-left: 500px;
+    margin-top: 150px; 
+    font-size: xx-large;
+     color:rgb(170, 92, 19) ;
+
+}
+
+
+
+ 
